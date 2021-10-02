@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: auto;
+  overflow: hidden;
+}
+header {
+}
+.header-nav {
+  background-color: rgb(255, 226, 214);
+}
+.delivary-option {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  font-weight: 600;
+  margin: 0px auto;
+}
+.home-delivary {
+  display: flex;
+}
+.icn {
+  margin: 0px -20px -25px -30px;
+  color: rgb(255, 78, 0);
+}
+.home-delivary ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.home-delivary ul li {
+  list-style: none;
+  color: rgb(255, 78, 0);
+}
+.home-delivary ul li a {
+  text-decoration: none;
+  color: rgb(255, 78, 0);
+  padding: 0px 5px;
+}
+.faq {
+  display: flex;
+}
+.faq ul {
+  display: flex;
+  align-items: center;
+}
+.faq ul li {
+  display: inline-block;
+  padding: 0px 5px;
+  color: rgb(255, 78, 0);
+}
+.faq ul li a {
+  text-decoration: none;
+  color: rgb(255, 78, 0);
+}
+main {
+  display: flex;
+  width: 80%;
+  margin: 0px auto;
+}
+.nav-left-side {
+  box-sizing: border-box;
+  box-shadow: rgba(225, 215, 215, 0.74) 5px 0px 10px;
+  height: 100vh;
+  width: 25%;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+}
+.logo img {
+  margin: 0px 10px;
+}
+.logo a {
+  text-decoration: none;
+}
+.item-table a {
+  text-decoration: none;
+  color: rgb(109, 105, 103);
+  margin: 0px 22px;
+  font-weight: 600;
+  font-size: 18px;
+}
+footer {
+  border-bottom: 5px solid black;
+  padding: 10px;
+  overflow: hidden;
+}
+.nav-right-side {
+  width: 75%;
+}
+.nav-section {
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px;
+  height: 50px;
+}
+.navbar {
+}
+.navbar ul {
+}
+.navbar li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+}
+.location {
+  display: flex;
+}
+.location ul {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+}
+.location li {
+  list-style: none;
+  padding: 0px 5px;
+  color: rgb(233, 97, 37);
+  font-weight: 600;
+  display: inline-block;
+}
+.location a {
+}
+.nav-search {
+  display: flex;
+  justify-content: space-between;
+}
+.search-bar {
+  width: 80%;
+  margin: 0 20px;
+}
+.profile {
+  width: 20%;
+}
+.profile ul {
+}
+.profile li {
+}
+.profile a {
+}
+.search-input {
+  border-radius: 20px 0px 0px 20px;
+  height: 50px;
+  width: 85%;
+  padding: 0 15px;
+}
+.search-btn {
+  height: 49px;
+  width: 15%;
+  border-radius: 0px 20px 20px 0px;
+  background-color: red;
+  color: white;
+  margin: 0px -5px;
+}
